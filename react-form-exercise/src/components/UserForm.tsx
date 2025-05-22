@@ -127,10 +127,17 @@ const UserForm = () => {
                         </div>
                     </div>
 
-                    {/*Display User Button */}
-                    <button type="submit" className="bg-[orange] text-black font-bold rounded-lg w-25 h-20 items-center p-5 flex">
-                        Display User
-                    </button>
+                    <div className='btns'>
+                        {/*Display User Button */}
+                        <button type="submit" className="bg-[orange] text-black font-bold rounded-lg w-25 h-20 items-center p-5 flex mb-2">
+                            Display User
+                        </button>
+
+                        {/*Clear Button */}
+                        <button type="reset" className='bg-[grey] text-white font-bold rounded-lg w-25 h-20 items-center p-5 flex'>
+                            Clear Form
+                        </button>
+                    </div>
                 </form>
         </div>
     );
